@@ -105,6 +105,9 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
+![leo sql diagram](https://github.com/user-attachments/assets/35b151e7-9e94-4cd8-8e2e-42a98c4cb296)
+
+
 ***
 
 ## Section 2:
