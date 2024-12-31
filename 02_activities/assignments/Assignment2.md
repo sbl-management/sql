@@ -45,8 +45,14 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 
 **HINT:** You do not need to create any data for this prompt. This is a conceptual model only. 
 
+![A2_1](https://github.com/user-attachments/assets/9935caeb-328f-4953-9e16-e0e28f3fd4fc)
+
+
 #### Prompt 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
+
+![A2_2](https://github.com/user-attachments/assets/f90af625-1fa5-4735-bb9d-d29d468ec335)
+
 
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
@@ -54,7 +60,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 is the overwrite option, where the customer's old address is replaced with the new one, and no record of past addresses is kept. Type 2 is the retain-changes option, which preserves all past addresses. Whenever the customer updates their address, a new row is added for the new address while keeping the old ones intact.
 ```
 
 ***
